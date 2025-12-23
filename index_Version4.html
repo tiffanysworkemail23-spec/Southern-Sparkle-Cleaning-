@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Southern Sparkle Cleaning — by Tiffany Hicks</title>
+  <meta name="description" content="Southern Sparkle Cleaning by Tiffany Hicks — professional residential & commercial cleaning serving Mountain City, TN (37683) and surrounding counties. Insured, reliable, and locally owned." />
+
+  <!-- Open Graph for social sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Southern Sparkle Cleaning — by Tiffany Hicks" />
+  <meta property="og:description" content="Professional residential & commercial cleaning serving Mountain City, TN (37683) and surrounding counties — book a quote today!" />
+  <meta property="og:image" content="/images/og-image.jpg" />
+  <meta property="og:image:alt" content="Southern Sparkle Cleaning logo of cleaning bottles, broom and floral wreath with sparkles" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="/images/favicon.png" type="image/png" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="wrap header-inner">
+      <!-- Replace images/logo.png with your logo (square recommended) -->
+      <img src="images/logo.png" alt="Southern Sparkle Cleaning logo: jar, broom and flowers" class="logo" />
+
+      <div class="brand-block">
+        <h1 class="brand">Southern Sparkle</h1>
+        <p class="tagline">Cleaning — <span class="byline">by Tiffany Hicks</span></p>
+        <p class="service-area">Serving Mountain City, TN (37683) &amp; surrounding counties: Watauga, Avery, Erwin, Carter</p>
+      </div>
+
+      <div class="right-contacts">
+        <!-- Clickable phone and email (updated) -->
+        <a class="phone" href="tel:+14232910283">+1 (423) 291‑0283</a>
+        <a class="email" href="mailto:tiffanysworkemail23@gmail.com">tiffanysworkemail23@gmail.com</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <h2 id="hero-heading">We make your space sparkle</h2>
+          <p>Reliable, thorough cleaning for homes and businesses in Mountain City and nearby counties. Flexible scheduling, background-checked staff, and a satisfaction guarantee.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="#contact">Get a Quote</a>
+            <a class="btn" href="#services">Our Services</a>
+          </div>
+        </div>
+
+        <!-- Replace images/hero.jpg with a hero photo or use the logo art -->
+        <img class="hero-image" src="images/hero.jpg" alt="Southern Sparkle Cleaning team at work / fresh clean room" />
+      </div>
+    </section>
+
+    <section id="services" class="section services" aria-labelledby="services-heading">
+      <div class="wrap">
+        <h3 id="services-heading">Services</h3>
+        <div class="grid">
+          <div class="card">
+            <h4>Home Cleaning</h4>
+            <p>Regular maintenance, deep cleaning, kitchens, bathrooms and bedrooms.</p>
+          </div>
+          <div class="card">
+            <h4>Office & Commercial</h4>
+            <p>After-hours and daytime cleaning tailored to your business needs.</p>
+          </div>
+          <div class="card">
+            <h4>Move-in/Move-out</h4>
+            <p>Thorough cleaning to help you move in/out with ease.</p>
+          </div>
+          <div class="card">
+            <h4>Special Requests</h4>
+            <p>Carpet cleaning, oven cleaning, interior windows and custom projects.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section pricing" aria-labelledby="pricing-heading">
+      <div class="wrap">
+        <h3 id="pricing-heading">Pricing (example)</h3>
+        <div class="grid">
+          <div class="price-card">
+            <h4>Basic</h4>
+            <p class="price">$60</p>
+            <p>1–2 bedroom typical home</p>
+          </div>
+          <div class="price-card">
+            <h4>Deep Clean</h4>
+            <p class="price">$140</p>
+            <p>Whole-home deep cleaning</p>
+          </div>
+          <div class="price-card">
+            <h4>Commercial</h4>
+            <p class="price">Call</p>
+            <p>Custom quote based on size &amp; frequency</p>
+          </div>
+        </div>
+        <p class="note">Contact us for an exact quote tailored to your property.</p>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery" aria-labelledby="gallery-heading">
+      <div class="wrap">
+        <h3 id="gallery-heading">Gallery</h3>
+        <div class="grid gallery-grid">
+          <!-- Replace these images with your own photos -->
+          <img src="images/before1.jpg" alt="Before cleaning - living room" />
+          <img src="images/after1.jpg" alt="After cleaning - living room" />
+          <img src="images/office.jpg" alt="Office cleaning" />
+          <img src="images/kitchen.jpg" alt="Kitchen cleaning" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact" aria-labelledby="contact-heading">
+      <div class="wrap">
+        <h3 id="contact-heading">Contact & Bookings</h3>
+
+        <!-- Netlify form -->
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form" aria-label="Contact form">
+          <input type="hidden" name="form-name" value="contact" />
+          <p class="hidden"><label>Don't fill this out: <input name="bot-field" /></label></p>
+
+          <label>Full name <input type="text" name="name" required /></label>
+          <label>Email <input type="email" name="email" required /></label>
+          <label>Phone <input type="tel" name="phone" /></label>
+          <label>Service interest
+            <select name="service">
+              <option>Home cleaning</option>
+              <option>Deep cleaning</option>
+              <option>Office / Commercial</option>
+              <option>Move-in / Move-out</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>Message / Address / Preferred date
+            <textarea name="message" rows="4"></textarea>
+          </label>
+          <div class="form-row">
+            <button class="btn primary" type="submit">Send</button>
+            <button class="btn" type="reset">Reset</button>
+          </div>
+        </form>
+
+        <aside class="contact-details" aria-labelledby="contact-heading">
+          <p><strong>Phone:</strong> <a href="tel:+14232910283">+1 (423) 291‑0283</a></p>
+          <p><strong>Email:</strong> <a href="mailto:tiffanysworkemail23@gmail.com">tiffanysworkemail23@gmail.com</a></p>
+          <p><strong>Service area:</strong> Mountain City, TN (37683) and surrounding counties: Watauga, Avery, Erwin, Carter</p>
+          <p><strong>Follow:</strong> <a href="https://www.facebook.com/YourPage" target="_blank" rel="noopener">Facebook</a></p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="wrap">
+      <p>© <span id="year"></span> Southern Sparkle Cleaning — by Tiffany Hicks</p>
+    </div>
+  </footer>
+
+  <!-- JSON-LD LocalBusiness (edit url if you buy a domain) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Southern Sparkle Cleaning",
+    "description": "Residential & commercial cleaning serving Mountain City, TN (37683) and surrounding counties.",
+    "telephone": "+14232910283",
+    "email": "tiffanysworkemail23@gmail.com",
+    "areaServed": ["Mountain City, TN 37683","Watauga County, TN","Avery County, NC","Erwin, TN","Carter County, TN"],
+    "url": ""
+  }
+  </script>
+
+  <script>
+    // small script to set the current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
